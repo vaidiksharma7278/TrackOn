@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    overscroll-behavior: none;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#page1{
+    width: 100%;
+    min-height: 100vh;
+}
+#nav{
+    background-color: black;
+    position: fixed;
+    height: 70px;
+    z-index: 999999;
+    width: 100%;
+}
+#page1 h1{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-weight: 800;
+    line-height: 4.9vw;
+    font-size: 5.5vw;
+    white-space: pre-line;
+}
+#page1 h2{
+    position: absolute;
+    left: 10%;
+    top: 38%;
+    color: rgb(151, 151, 230);
+    font-size: 9vw;
+    font-weight: 800;
+}
+#page1 p{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: rgb(155, 154, 154);
+    font-size: 1.6vw;
+    line-height: 2.2vw;
+    font-weight: 500;
+    white-space: pre-line;
+}
+#page1 p b{
+    color: rgb(103, 103, 226);
+}
+#page1 #btn{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    width: 20%;
+    border: none;
+    height: 8vh;
+    font-size: 1.1vw;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: rgb(205, 205, 247);
+}
+#page1 #pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 55%;
+    top: 17%;
+    box-shadow: 2px 3px 18px grey;
+    width: 35%;
+    height: 73vh;
+    background-color: rgb(234, 234, 246);
+}
+#pic #img1{
+    object-position: center;
+    object-fit: cover;
+    width: 60%;
+    height: 80vh;
+}
+#pic #img2{
+    top: -10%;
+    left: -15%;
+    position: absolute;
+    width: 40%;
+    height: 25vh;
+}
+#pic #img3{
+    top: 80%;
+    left: -16%;
+    position: absolute;
+    width: 35%;
+    height: 27vh;
+}
+#pic #img4{
+    top: 85%;
+    left: 80%;
+    position: absolute;
+    width: 40%;
+    height: 30vh;
+}
+#page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+#page2 h3{
+    margin: 12vw 40vw;
+    color: rgb(103, 103, 226);
+}
+#page2 #page2img{
+    margin: -11vw 40vw;
+    width: 30%;
+    height: 12vh;
+}
+#page2 #top{
+    position: absolute;
+    top: 115%;
+    overflow: hidden;
+    border-radius: 3vw;
+    width: 85%;
+    height: 50vh;
+    background-color: rgb(223, 223, 241);
+}
+#top #text{
+    font-family: gilroy;
+    font-size: 1.6vw;
+    margin-top: 2.5vw;
+    margin-left: 14vw;
+}
+#top #scroll{
+    margin-left: 2.5vw;
+    position: relative;
+    width: 94%;
+    height: 33vh;
+    background-color: black;
+
+}
+#page3{
+    width: 100%;
+    min-height: 100vh;
+}
+#page3 h1{
+    margin: -5vw 23vw;
+    font-size: 3.7vw;
+    font-weight: 900;
+}
+#page3 h3{
+    margin: 6vw 12vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+ #cards{
+    position: absolute;
+    width: 80%;
+    overflow: hidden;
+    left: 10%;
+    top: 215%;
+    height: 70vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card{
+    overflow: hidden;
+    width: 30%;
+    border: 2px solid black;
+    height: 60vh;
+    border-radius: 1.2vw;
+}
+.pic{
+    overflow: hidden;
+    width: 100%;
+    height: 23vh;
+}
+.pic img{
+    width: 100%;
+    height: 23vh;
+    object-fit: cover;
+    object-position: center;
+}
+.card h2{
+    margin: 1vw 1vw;
+    font-size: 1.6vw;
+}
+.card p{
+    font-size: 1.2vw;
+    color: grey;
+    margin: 2vw 1vw;
+}
+
+.card i{
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+.card h4{
+    margin-top: -2vw;
+    margin-left: 6vw;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+.card span{
+    position: absolute;
+    top: 81.8%;
+    margin-left: 1vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+.card h5{
+    margin-left: 17vw;
+    font-weight: 400;
+    margin-top: -20px;
+    font-size: 1.4vw;
+}
+.card #a{
+    position:absolute;
+    top: 76%;
+    font-size: 1.7vw;
+    margin-left: 20.6vw;
+}
+#page4{
+    width: 100%;
+    min-height: 100vh;
+}
+#page4 #view{
+    position: absolute;
+    border-radius: 1.8vw;
+    left: 45%;
+    width: 12%;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: 600;
+    height: 8vh;
+    background-color: rgb(205, 205, 247);
+}
+#page4 h1{
+    position: absolute;
+    left: 20%;
+    top: 325%;
+    font-size: 3.5vw;
+    font-weight: 800;
+}
+#page4 h3{
+    position: absolute;
+    left: 28%;
+    top: 338%;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+#page5{
+    width: 100%;
+    min-height: 120vh;
+}
+#page4 #page4pic{
+    position: absolute;
+    width: 35%;
+    height: 75vh;
+    left: 55%;
+    top: 350%;
+}
+
+.open{
+    position:absolute;
+    width: 38%;
+    border-radius: 2vw;
+    left: 10%;
+    height: 35vh;
+    background-color: rgb(226, 226, 247);
+}
+.open h2{
+    margin: 1.2vw 2vw;
+}
+.open p{
+    /* display: none; */
+    margin: 4vw 2vw;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 1.9vw;
+}
+ #one{
+    position: absolute;
+    top: 362%;
+}
+#one p{
+    margin: 2vw 2vw;
+    line-height: 1.7vw;
+}
+ #two{
+    height: 25vh;
+    position: absolute;
+    top: 385%;
+    /* top: 435%; */
+}
+#two p{
+    margin: 2vw 2vw;
+}
+ #three{
+    position: absolute;
+    top: 404%;
+    /* top: 452%; */
+}
+#three p{
+    margin: 2vw 2vw;
+}
+#one{
+    z-index: 999;
+    display: none;
+}
+#two{
+    display: none;
+}
+#three{
+    display: none;
+}
+#part2{
+    position:absolute;
+    padding: 20vw 20vw;
+    top: 355%;
+    left: 12%;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+}
+ #part2 .h1{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+#part2  h2{
+    font-size: 1.7vw;
+     font-weight: 600;
+ }
+ #part2 .h2{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    position: absolute;
+    top: 38%;
+    left: 12%;
+ }
+ #part2 .h3{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    position: absolute;
+    top: 60%;
+    left: 12%;
+ }
+
+ #part2 .h1 #down1{
+    position: absolute;
+    font-size: 2vw;
+    left: 110%;
+    z-index: 9999999;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+    transform: rotate(0deg);
+    top: 10%;
+} 
+#part2 .h2 #down2{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+    z-index: 9999999;
+    position: absolute;
+    font-size: 2vw;
+    left: 120%;
+    top: 28%;
+}
+#part2 .h3 #down3{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+    z-index: 9999999;
+    position: absolute;
+    font-size: 2vw;
+    left: 107%;
+    top: 33%;
+} 
+.last{
+    background-color: rgb(223, 223, 241);
+    position: absolute;
+    width: 79%;
+    top: 442%;
+    left: 12%;
+    border-radius: 20px;
+    height: 55vh;
+}
+.last h4{
+    margin: 5vw 27vw;
+    color: rgb(67, 67, 146);
+}
+.last h1{
+    margin: -4vw 16vw;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+.last h2{
+    margin: 4vw 25vw;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+.last button{
+    width: 22%;
+    height: 8vh;
+  margin: 1vw 30vw;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(205, 205, 247);
+  font-weight: 600;
+  font-size: 1.2vw;
+}

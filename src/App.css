@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+#butt{
+  margin-left: 20%;
+}
+#head{
+  text-align: left;
+}
+body{
+  margin-left: 140px;
+  margin-right:140px;
+}
+.logoimage{
+  height: 50px;
+}
